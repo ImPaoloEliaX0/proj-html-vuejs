@@ -9,7 +9,7 @@
                 
                     <!-- Box-logo -->
                     <div class="box-logo">
-                        <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/img/construction_logo.png" alt="construction_mobile">
+                        <img src="./construction_logo.png" alt="construction_mobile">
                     </div>
                    
     
@@ -153,7 +153,7 @@ header nav .box-link .btn-nav:hover{
     color: #fff;
 }
 .jumbotron{
-    background-image: url('/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/home-slider-62528242.jpg');
+    background-image: url('home-slider-62528242.jpg');
     height: 610px;
     background-position: 0px 25%;
     background-repeat: no-repeat;

@@ -321,7 +321,7 @@
                     <div class="box-img-work">
                         <!-- BOX PRIMA IMMAGINE -->
                         <div class="box-item-img-work">
-                            <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs-/src/components/project2-featured-15013609-400x400.jpg" alt="project2-featured">
+                            <img src="./project2-featured-15013609-400x400.jpg" alt="project2-featured">
 
                             <div class="box-hover-work">
                                 <!-- HOVER ICON -->
@@ -349,7 +349,7 @@
 
                         <!-- BOX SECONDA IMMAGINE -->
                         <div class="box-item-img-work">
-                            <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/project1-featured-294276386.jpg" alt="project1-featured">
+                            <img src="./project1-featured-294276386.jpg" alt="project1-featured">
 
                             <div class="box-hover-work">
                                 <!-- HOVER ICON -->
@@ -376,7 +376,7 @@
 
                         <!-- BOX TERZA IMMAGINE -->
                         <div class="box-item-img-work">
-                            <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/project3-featured-189023420.jpg" alt="project3-featured">
+                            <img src="./project3-featured-189023420.jpg" alt="project3-featured">
 
                             <div class="box-hover-work">
                                 <!-- HOVER ICON -->
@@ -587,7 +587,7 @@
                             <!-- box IMG ITEM -->
                             <div class="box-item-news-header">
                                 <div class="box-img-news">
-                                    <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/blog-post-134132600.jpg" alt="blog-post">
+                                    <img src="./blog-post-134132600.jpg" alt="blog-post">
 
                                     <div class="box-hover">
                                         <div class="box-ico-hover">
@@ -635,7 +635,7 @@
                             <div class="box-item-news-header">
                                 <div class="box-img-news">
 
-                                    <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/blog-post-92486644.jpg" alt="blog-post">
+                                    <img src="./blog-post-92486644.jpg" alt="blog-post">
                                     <div class="box-hover">
                                         <div class="box-ico-hover">
                                             <i class="fas fa-link"></i>
@@ -681,7 +681,7 @@
                             <!-- box IMG ITEM -->
                             <div class="box-item-news-header">
                                 <div class="box-img-news">
-                                    <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/blog-post-332773904.jpg" alt="blog-post">
+                                    <img src="./blog-post-332773904.jpg" alt="blog-post">
 
                                     <div class="box-hover">
                                         <div class="box-ico-hover">
@@ -819,11 +819,45 @@
   
 </template>
 
+
 <script>
 export default {
-    name: 'MyMain'
+    name: 'MyMain',
 
-}
+
+
+data(){
+    return{
+      listItem: [
+            'home',
+            'about',
+            'service',
+            'work',
+            'articles'
+        ],
+        counter:0,
+        position:0,
+        interval:'',
+        testimonial: [
+            {
+                name:'HARRY SMITH • NEW HOME OWNER',
+                text: '“No man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property.”',
+                photo: 'img/home-testimonial-113165296.jpg'
+            },
+            {
+                name:'JOHN DOE • PROPERTY INVESTOR',
+                text: '“Many novice real estate investors soon quit the profession and invest. When you invest in real estate, you often see a side of humanity that stocks, bonds, mutual funds, and saving money shelter you from.”',
+                photo: 'img/home-testimonial-84268399.jpg'
+            }
+        ]
+    };
+  },
+
+  methods: {
+       
+
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -987,7 +1021,7 @@ opacity: 1;}
 
 #numbers{
     height: 600px;
-    background-image: url('/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/home-244125289.jpg');
+    background-image: url('home-244125289.jpg');
     background-position: 0 45%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1230,7 +1264,7 @@ opacity: 1;}
 
 #testimonial{
     width: 100%;
-    background-image: url('/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/home-parallax-144609983.jpg');
+    background-image: url('home-parallax-144609983.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1414,7 +1448,7 @@ opacity: 1;}
 
 #building{
     width: 100%;
-    background-image: url('/Users/xxpaoloelia/Desktop/proj-html-vuejs/img/about-call-to-action-57862405.jpg');
+    background-image: url('about-call-to-action-57862405.jpg');
     background-size: cover;
     background-position: 0% 83%;
     border-bottom: 10px solid rgb(61, 61, 61);

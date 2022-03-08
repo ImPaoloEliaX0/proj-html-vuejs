@@ -12,7 +12,7 @@
                     <!-- BOX LOGO FOOTER -->
                     <div class="box-item-header">
                         <div class="box-logo-header">
-                            <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/src/components/footer-logo.png" alt="footer-logo">
+                            <img src="./footer-logo.png" alt="footer-logo">
                         </div>
 
                         <div class="box-text-footer">
@@ -30,7 +30,7 @@
                         <h2>latest tweets</h2>
                         <div class="box-spot-header">
                             <div class="box-logo-spot">
-                                <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/img/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="normal">
+                                <img src="./3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="normal">
                             </div>
                             <div class="box-item-spot">
                                 <div class="container-spot">
@@ -48,7 +48,7 @@
                                 </div>
 
                                 <div class="box-img-spot">
-                                    <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/img/En2TRxLW4AEiWUN.jpeg" alt="En2TRxLW4AEiWUN">
+                                    <img src="./En2TRxLW4AEiWUN.jpeg" alt="En2TRxLW4AEiWUN">
                                 </div>
 
                                 <div class="box-icon-spot">
@@ -114,7 +114,7 @@
                             <h2>find us</h2>
                         </div>
                         <div class="box-img">
-                            <img src="/Users/xxpaoloelia/Desktop/proj-html-vuejs/img/staticmap-construction.png" alt="staticmap">
+                            <img src="./staticmap-construction.png" alt="staticmap">
                         </div>
                     </div>
                     <!-- / BOX MAPP -->
